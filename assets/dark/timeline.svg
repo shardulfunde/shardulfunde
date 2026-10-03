@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" fill="none" role="img" aria-label="Journey: WCE AI &amp; ML from 2024, products and Turing experience in 2026, expected graduation in 2028">
+  <title>Journey: WCE AI &amp; ML from 2024, products and Turing experience in 2026, expected graduation in 2028</title>
+  <style>
+    :root { --ink:#f0f0f0; --muted:#b5b5b5;
+             --rule:#484848; --ghost:#767676; }
+    text { font-family:Consolas,"Liberation Mono",monospace; letter-spacing:0; }
+    .reveal { animation:reveal .7s ease; }
+    .later { animation-delay:.15s; }
+    .last { animation-delay:.3s; }
+    .draw { animation:draw 1.3s ease; stroke-dasharray:1200; }
+    .flow { stroke-dasharray:4 10; animation:flow 2s linear infinite; }
+    .pulse { animation:pulse 2.8s ease-in-out infinite; }
+    @keyframes reveal { from { opacity:.65; transform:translateY(6px); }
+                         to { opacity:1; transform:translateY(0); } }
+    @keyframes draw { from { stroke-dashoffset:150; } to { stroke-dashoffset:0; } }
+    @keyframes flow { to { stroke-dashoffset:-28; } }
+    @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:.45; } }
+    @media (prefers-reduced-motion:reduce) {
+      .reveal,.draw,.flow,.pulse { animation:none; }
+    }
+</style>
+  <text x="48" y="31" font-size="15" fill="var(--muted)" text-anchor="start">THE ROUTE / EDUCATION TO ENGINEERING</text>
+  <line x1="48" y1="48" x2="952" y2="48" stroke="var(--rule)" stroke-width="1" class="draw" />
+  <line x1="105" y1="157" x2="890" y2="157" stroke="var(--rule)" stroke-width="1" class="draw" />
+  <circle cx="105" cy="157" r="5" fill="var(--ink)" />
+  <text x="105" y="91" font-size="18" fill="var(--muted)" text-anchor="middle">2024</text>
+  <text x="105" y="118" font-size="20" fill="var(--ink)" text-anchor="middle" font-weight="700">WCE</text>
+  <text x="105" y="141" font-size="16" fill="var(--muted)" text-anchor="middle">AI &amp; ML</text>
+  <circle cx="360" cy="157" r="5" fill="var(--ink)" />
+  <text x="360" y="205" font-size="18" fill="var(--muted)" text-anchor="middle">2026</text>
+  <text x="360" y="232" font-size="20" fill="var(--ink)" text-anchor="middle" font-weight="700">StudyMate AI</text>
+  <text x="360" y="260" font-size="16" fill="var(--muted)" text-anchor="middle">1,200+ users</text>
+  <circle cx="625" cy="157" r="5" fill="var(--ink)" />
+  <text x="625" y="91" font-size="18" fill="var(--muted)" text-anchor="middle">AUG - SEP 2026</text>
+  <text x="625" y="118" font-size="20" fill="var(--ink)" text-anchor="middle" font-weight="700">Turing</text>
+  <text x="625" y="141" font-size="16" fill="var(--muted)" text-anchor="middle">AI evaluation</text>
+  <circle cx="890" cy="157" r="5" fill="var(--ink)" />
+  <text x="890" y="205" font-size="18" fill="var(--muted)" text-anchor="middle">2028</text>
+  <text x="890" y="232" font-size="20" fill="var(--ink)" text-anchor="middle" font-weight="700">B.Tech</text>
+  <text x="890" y="260" font-size="16" fill="var(--muted)" text-anchor="middle">Expected graduation</text>
+</svg>

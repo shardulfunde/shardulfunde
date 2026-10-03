@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" fill="none" role="img" aria-label="Technical stack: C++, Python, Java, C; FastAPI, PostgreSQL; PyTorch, LangChain, LangGraph, RAG; Docker, Git, AWS, Azure, Render">
+  <title>Technical stack: C++, Python, Java, C; FastAPI, PostgreSQL; PyTorch, LangChain, LangGraph, RAG; Docker, Git, AWS, Azure, Render</title>
+  <style>
+    :root { --ink:#171717; --muted:#555555;
+             --rule:#c4c4c4; --ghost:#b4b4b4; }
+    text { font-family:Consolas,"Liberation Mono",monospace; letter-spacing:0; }
+    .reveal { animation:reveal .7s ease; }
+    .later { animation-delay:.15s; }
+    .last { animation-delay:.3s; }
+    .draw { animation:draw 1.3s ease; stroke-dasharray:1200; }
+    .flow { stroke-dasharray:4 10; animation:flow 2s linear infinite; }
+    .pulse { animation:pulse 2.8s ease-in-out infinite; }
+    @keyframes reveal { from { opacity:.65; transform:translateY(6px); }
+                         to { opacity:1; transform:translateY(0); } }
+    @keyframes draw { from { stroke-dashoffset:150; } to { stroke-dashoffset:0; } }
+    @keyframes flow { to { stroke-dashoffset:-28; } }
+    @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:.45; } }
+    @media (prefers-reduced-motion:reduce) {
+      .reveal,.draw,.flow,.pulse { animation:none; }
+    }
+</style>
+  <line x1="205" y1="12" x2="205" y2="308" stroke="var(--rule)" stroke-width="1" />
+  <text x="48" y="38" font-size="17" fill="var(--muted)" text-anchor="start">LANGUAGES</text>
+  <text x="227" y="38" font-size="20" fill="var(--ink)" text-anchor="start">C++ / Python / Java / C</text>
+  <text x="48" y="91" font-size="17" fill="var(--muted)" text-anchor="start">CORE CS</text>
+  <text x="227" y="91" font-size="20" fill="var(--ink)" text-anchor="start">DSA / OOP / Operating Systems / DBMS / Debugging</text>
+  <text x="48" y="144" font-size="17" fill="var(--muted)" text-anchor="start">BACKEND</text>
+  <text x="227" y="144" font-size="20" fill="var(--ink)" text-anchor="start">FastAPI / REST APIs / PostgreSQL / SQL / SQLAlchemy</text>
+  <text x="48" y="197" font-size="17" fill="var(--muted)" text-anchor="start">AI / ML</text>
+  <text x="227" y="189" font-size="20" fill="var(--ink)" text-anchor="start">PyTorch / Scikit-Learn / NumPy / Pandas</text>
+  <text x="227" y="215" font-size="20" fill="var(--ink)" text-anchor="start">LangChain / LangGraph / RAG</text>
+  <text x="48" y="250" font-size="17" fill="var(--muted)" text-anchor="start">TOOLS</text>
+  <text x="227" y="250" font-size="20" fill="var(--ink)" text-anchor="start">Docker / Git</text>
+  <text x="48" y="303" font-size="17" fill="var(--muted)" text-anchor="start">DEPLOYMENT</text>
+  <text x="227" y="303" font-size="20" fill="var(--ink)" text-anchor="start">AWS / Azure / Render</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 310" fill="none" role="img" aria-label="About Shardul Funde: AI &amp; ML student, backend development, education, and leadership">
+  <title>About Shardul Funde: AI &amp; ML student, backend development, education, and leadership</title>
+  <style>
+    :root { --ink:#171717; --muted:#555555;
+             --rule:#c4c4c4; --ghost:#b4b4b4; }
+    text { font-family:Consolas,"Liberation Mono",monospace; letter-spacing:0; }
+    .reveal { animation:reveal .7s ease; }
+    .later { animation-delay:.15s; }
+    .last { animation-delay:.3s; }
+    .draw { animation:draw 1.3s ease; stroke-dasharray:1200; }
+    .flow { stroke-dasharray:4 10; animation:flow 2s linear infinite; }
+    .pulse { animation:pulse 2.8s ease-in-out infinite; }
+    @keyframes reveal { from { opacity:.65; transform:translateY(6px); }
+                         to { opacity:1; transform:translateY(0); } }
+    @keyframes draw { from { stroke-dashoffset:150; } to { stroke-dashoffset:0; } }
+    @keyframes flow { to { stroke-dashoffset:-28; } }
+    @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:.45; } }
+    @media (prefers-reduced-motion:reduce) {
+      .reveal,.draw,.flow,.pulse { animation:none; }
+    }
+</style>
+  <g class="reveal">
+    <text x="48" y="40" font-size="22" fill="var(--ink)" text-anchor="start">Third-year AI &amp; ML student at Walchand College of Engineering.</text>
+    <text x="48" y="78" font-size="22" fill="var(--ink)" text-anchor="start">I build Python backends, AI-powered products, and learning tools.</text>
+    <text x="48" y="116" font-size="22" fill="var(--ink)" text-anchor="start">My experience spans REST APIs, databases, deployment, and AI evaluation.</text>
+  </g>
+  <line x1="48" y1="145" x2="952" y2="145" stroke="var(--rule)" stroke-width="1" />
+  <g class="reveal later">
+    <text x="48" y="184" font-size="16" fill="var(--muted)" text-anchor="start">EDUCATION</text>
+    <text x="210" y="184" font-size="21" fill="var(--ink)" text-anchor="start">B.Tech AI &amp; ML / 2024 - 2028 / CGPA 8.9 / 10</text>
+    <text x="48" y="229" font-size="16" fill="var(--muted)" text-anchor="start">EXPERIENCE</text>
+    <text x="210" y="229" font-size="21" fill="var(--ink)" text-anchor="start">Turing / Software Engineer / Aug - Sep 2026</text>
+    <text x="48" y="274" font-size="16" fill="var(--muted)" text-anchor="start">LEADERSHIP</text>
+    <text x="210" y="274" font-size="21" fill="var(--ink)" text-anchor="start">Young CXO Fellow / Technical Head, WCE ASTRA</text>
+  </g>
+</svg>

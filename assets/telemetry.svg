@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 375" fill="none" role="img" aria-label="StudyMate AI launch metrics: 1,200+ users in 10 days, 8,000+ resource accesses, 750+ AI-generated tests, and $100,000 Azure credits">
+  <title>StudyMate AI launch metrics: 1,200+ users in 10 days, 8,000+ resource accesses, 750+ AI-generated tests, and $100,000 Azure credits</title>
+  <style>
+    :root { --ink:#171717; --muted:#555555;
+             --rule:#c4c4c4; --ghost:#b4b4b4; }
+    text { font-family:Consolas,"Liberation Mono",monospace; letter-spacing:0; }
+    .reveal { animation:reveal .7s ease; }
+    .later { animation-delay:.15s; }
+    .last { animation-delay:.3s; }
+    .draw { animation:draw 1.3s ease; stroke-dasharray:1200; }
+    .flow { stroke-dasharray:4 10; animation:flow 2s linear infinite; }
+    .pulse { animation:pulse 2.8s ease-in-out infinite; }
+    @keyframes reveal { from { opacity:.65; transform:translateY(6px); }
+                         to { opacity:1; transform:translateY(0); } }
+    @keyframes draw { from { stroke-dashoffset:150; } to { stroke-dashoffset:0; } }
+    @keyframes flow { to { stroke-dashoffset:-28; } }
+    @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:.45; } }
+    @media (prefers-reduced-motion:reduce) {
+      .reveal,.draw,.flow,.pulse { animation:none; }
+    }
+</style>
+  <text x="48" y="31" font-size="15" fill="var(--muted)" text-anchor="start">IMPACT / STUDYMATE AI</text>
+  <line x1="48" y1="48" x2="952" y2="48" stroke="var(--rule)" stroke-width="1" class="draw" />
+  <g class="reveal later">
+    <text x="48" y="136" font-size="58" fill="var(--ink)" text-anchor="start" font-weight="700">1,200+</text>
+    <text x="48" y="172" font-size="18" fill="var(--muted)" text-anchor="start">USERS IN 10 DAYS</text>
+  </g>
+  <g class="reveal later">
+    <text x="540" y="136" font-size="58" fill="var(--ink)" text-anchor="start" font-weight="700">8,000+</text>
+    <text x="540" y="172" font-size="18" fill="var(--muted)" text-anchor="start">RESOURCE ACCESSES</text>
+  </g>
+  <g class="reveal later">
+    <text x="48" y="280" font-size="58" fill="var(--ink)" text-anchor="start" font-weight="700">750+</text>
+    <text x="48" y="316" font-size="18" fill="var(--muted)" text-anchor="start">AI-GENERATED TESTS</text>
+  </g>
+  <g class="reveal later">
+    <text x="540" y="280" font-size="58" fill="var(--ink)" text-anchor="start" font-weight="700">$100,000</text>
+    <text x="540" y="316" font-size="18" fill="var(--muted)" text-anchor="start">AZURE CREDITS</text>
+  </g>
+  <line x1="48" y1="205" x2="952" y2="205" stroke="var(--rule)" stroke-width="1" />
+  <text x="540" y="344" font-size="19" fill="var(--muted)" text-anchor="start">Microsoft for Startups</text>
+</svg>

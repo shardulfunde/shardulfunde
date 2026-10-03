@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 740" fill="none" role="img" aria-label="Selected projects: StudyMate AI, ManahArogya, and CNN Visualization Tool">
+  <title>Selected projects: StudyMate AI, ManahArogya, and CNN Visualization Tool</title>
+  <style>
+    :root { --ink:#f0f0f0; --muted:#b5b5b5;
+             --rule:#484848; --ghost:#767676; }
+    text { font-family:Consolas,"Liberation Mono",monospace; letter-spacing:0; }
+    .reveal { animation:reveal .7s ease; }
+    .later { animation-delay:.15s; }
+    .last { animation-delay:.3s; }
+    .draw { animation:draw 1.3s ease; stroke-dasharray:1200; }
+    .flow { stroke-dasharray:4 10; animation:flow 2s linear infinite; }
+    .pulse { animation:pulse 2.8s ease-in-out infinite; }
+    @keyframes reveal { from { opacity:.65; transform:translateY(6px); }
+                         to { opacity:1; transform:translateY(0); } }
+    @keyframes draw { from { stroke-dashoffset:150; } to { stroke-dashoffset:0; } }
+    @keyframes flow { to { stroke-dashoffset:-28; } }
+    @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:.45; } }
+    @media (prefers-reduced-motion:reduce) {
+      .reveal,.draw,.flow,.pulse { animation:none; }
+    }
+</style>
+  <g class="reveal">
+    <text x="48" y="35" font-size="29" fill="var(--ink)" text-anchor="start" font-weight="700">01 / StudyMate AI</text>
+    <text x="48" y="72" font-size="19" fill="var(--muted)" text-anchor="start">AI learning platform</text>
+    <text x="48" y="116" font-size="21" fill="var(--ink)" text-anchor="start">Notes, resources, AI tests, MCQs, and chat over study materials.</text>
+    <text x="48" y="150" font-size="21" fill="var(--ink)" text-anchor="start">PostgreSQL models, role-based access, and concurrent AI tasks.</text>
+    <text x="48" y="193" font-size="23" fill="var(--ink)" text-anchor="start" font-weight="700">1,200+ users in 10 days</text>
+    <text x="48" y="226" font-size="18" fill="var(--muted)" text-anchor="start">FastAPI / PostgreSQL / SQLAlchemy / LangChain / AWS / Azure</text>
+    <line x1="48" y1="253" x2="952" y2="253" stroke="var(--rule)" stroke-width="1" />
+  </g>
+  <g class="reveal later">
+    <text x="48" y="275" font-size="29" fill="var(--ink)" text-anchor="start" font-weight="700">02 / ManahArogya</text>
+    <text x="48" y="312" font-size="19" fill="var(--muted)" text-anchor="start">AI mental health application</text>
+    <text x="48" y="356" font-size="21" fill="var(--ink)" text-anchor="start">Built the backend, PostgreSQL schemas, and REST APIs.</text>
+    <text x="48" y="390" font-size="21" fill="var(--ink)" text-anchor="start">Owned the database and deployment on Render.</text>
+    <text x="48" y="433" font-size="23" fill="var(--ink)" text-anchor="start" font-weight="700">3rd among 350+ teams</text>
+    <text x="48" y="466" font-size="18" fill="var(--muted)" text-anchor="start">FastAPI / PostgreSQL / Render</text>
+    <line x1="48" y1="493" x2="952" y2="493" stroke="var(--rule)" stroke-width="1" />
+  </g>
+  <g class="reveal last">
+    <text x="48" y="515" font-size="29" fill="var(--ink)" text-anchor="start" font-weight="700">03 / CNN Visualization Tool</text>
+    <text x="48" y="552" font-size="19" fill="var(--muted)" text-anchor="start">Interactive digit classifier</text>
+    <text x="48" y="596" font-size="21" fill="var(--ink)" text-anchor="start">Classifies hand-drawn digits in real time.</text>
+    <text x="48" y="630" font-size="21" fill="var(--ink)" text-anchor="start">Visualizes CNN feature maps and convolutional layers.</text>
+    <text x="48" y="673" font-size="23" fill="var(--ink)" text-anchor="start" font-weight="700">See what a CNN learns</text>
+    <text x="48" y="706" font-size="18" fill="var(--muted)" text-anchor="start">Python / TensorFlow / NumPy / Streamlit</text>
+    <line x1="48" y1="733" x2="952" y2="733" stroke="var(--rule)" stroke-width="1" />
+  </g>
+</svg>

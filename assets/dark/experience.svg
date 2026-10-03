@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" fill="none" role="img" aria-label="Turing: part-time Software Engineer, August 17 to September 30, 2026; Python, Docker, Linux, and Git">
+  <title>Turing: part-time Software Engineer, August 17 to September 30, 2026; Python, Docker, Linux, and Git</title>
+  <style>
+    :root { --ink:#f0f0f0; --muted:#b5b5b5;
+             --rule:#484848; --ghost:#767676; }
+    text { font-family:Consolas,"Liberation Mono",monospace; letter-spacing:0; }
+    .reveal { animation:reveal .7s ease; }
+    .later { animation-delay:.15s; }
+    .last { animation-delay:.3s; }
+    .draw { animation:draw 1.3s ease; stroke-dasharray:1200; }
+    .flow { stroke-dasharray:4 10; animation:flow 2s linear infinite; }
+    .pulse { animation:pulse 2.8s ease-in-out infinite; }
+    @keyframes reveal { from { opacity:.65; transform:translateY(6px); }
+                         to { opacity:1; transform:translateY(0); } }
+    @keyframes draw { from { stroke-dashoffset:150; } to { stroke-dashoffset:0; } }
+    @keyframes flow { to { stroke-dashoffset:-28; } }
+    @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:.45; } }
+    @media (prefers-reduced-motion:reduce) {
+      .reveal,.draw,.flow,.pulse { animation:none; }
+    }
+</style>
+  <text x="48" y="31" font-size="15" fill="var(--muted)" text-anchor="start">EXPERIENCE / TURING</text>
+  <line x1="48" y1="48" x2="952" y2="48" stroke="var(--rule)" stroke-width="1" class="draw" />
+  <g class="reveal">
+    <text x="48" y="97" font-size="25" fill="var(--ink)" text-anchor="start" font-weight="700">Software Engineer / Python &amp; Docker / Part-time</text>
+    <text x="48" y="134" font-size="21" fill="var(--muted)" text-anchor="start">August 17 - September 30, 2026</text>
+    <text x="48" y="182" font-size="21" fill="var(--ink)" text-anchor="start">Hardened 5+ programming tasks for AI coding-agent evaluation.</text>
+    <text x="48" y="219" font-size="21" fill="var(--ink)" text-anchor="start">Calibrated difficulty; debugged solutions, grading, and environments.</text>
+    <text x="48" y="256" font-size="21" fill="var(--ink)" text-anchor="start">Separated model failures from task issues and verified fixes.</text>
+    <text x="48" y="297" font-size="19" fill="var(--muted)" text-anchor="start">Python / Docker / Linux / Git</text>
+  </g>
+</svg>

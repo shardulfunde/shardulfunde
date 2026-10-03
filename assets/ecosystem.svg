@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" fill="none" role="img" aria-label="Project map: StudyMate AI, ManahArogya, and CNN Visualization Tool">
+  <title>Project map: StudyMate AI, ManahArogya, and CNN Visualization Tool</title>
+  <style>
+    :root { --ink:#171717; --muted:#555555;
+             --rule:#c4c4c4; --ghost:#b4b4b4; }
+    text { font-family:Consolas,"Liberation Mono",monospace; letter-spacing:0; }
+    .reveal { animation:reveal .7s ease; }
+    .later { animation-delay:.15s; }
+    .last { animation-delay:.3s; }
+    .draw { animation:draw 1.3s ease; stroke-dasharray:1200; }
+    .flow { stroke-dasharray:4 10; animation:flow 2s linear infinite; }
+    .pulse { animation:pulse 2.8s ease-in-out infinite; }
+    @keyframes reveal { from { opacity:.65; transform:translateY(6px); }
+                         to { opacity:1; transform:translateY(0); } }
+    @keyframes draw { from { stroke-dashoffset:150; } to { stroke-dashoffset:0; } }
+    @keyframes flow { to { stroke-dashoffset:-28; } }
+    @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:.45; } }
+    @media (prefers-reduced-motion:reduce) {
+      .reveal,.draw,.flow,.pulse { animation:none; }
+    }
+</style>
+  <text x="48" y="31" font-size="15" fill="var(--muted)" text-anchor="start">SYSTEM MAP / FROM DATA TO USEFUL PRODUCTS</text>
+  <line x1="48" y1="48" x2="952" y2="48" stroke="var(--rule)" stroke-width="1" class="draw" />
+  <rect x="360" y="92" width="280" height="74" rx="2" stroke="var(--ink)" />
+  <text x="500" y="124" font-size="23" fill="var(--ink)" text-anchor="middle" font-weight="700">SHARDULFUNDE</text>
+  <text x="500" y="151" font-size="16" fill="var(--muted)" text-anchor="middle">AI / BACKEND / DATA</text>
+  <path d="M500 166 V210 H188 V262" stroke="var(--rule)" class="flow" />
+  <g class="reveal later">
+    <rect x="48" y="262" width="280" height="122" rx="2" stroke="var(--rule)" />
+    <text x="188" y="299" font-size="23" fill="var(--ink)" text-anchor="middle" font-weight="700">StudyMate AI</text>
+    <text x="188" y="332" font-size="19" fill="var(--muted)" text-anchor="middle">Learning platform</text>
+    <text x="188" y="360" font-size="17" fill="var(--muted)" text-anchor="middle">FastAPI + PostgreSQL</text>
+  </g>
+  <path d="M500 166 V210 H500 V262" stroke="var(--rule)" class="flow" />
+  <g class="reveal later">
+    <rect x="360" y="262" width="280" height="122" rx="2" stroke="var(--rule)" />
+    <text x="500" y="299" font-size="23" fill="var(--ink)" text-anchor="middle" font-weight="700">ManahArogya</text>
+    <text x="500" y="332" font-size="19" fill="var(--muted)" text-anchor="middle">Mental health app</text>
+    <text x="500" y="360" font-size="17" fill="var(--muted)" text-anchor="middle">APIs + deployment</text>
+  </g>
+  <path d="M500 166 V210 H812 V262" stroke="var(--rule)" class="flow" />
+  <g class="reveal later">
+    <rect x="672" y="262" width="280" height="122" rx="2" stroke="var(--rule)" />
+    <text x="812" y="299" font-size="23" fill="var(--ink)" text-anchor="middle" font-weight="700">CNN Visualizer</text>
+    <text x="812" y="332" font-size="19" fill="var(--muted)" text-anchor="middle">Digit classifier</text>
+    <text x="812" y="360" font-size="17" fill="var(--muted)" text-anchor="middle">TensorFlow + Streamlit</text>
+  </g>
+  <line x1="48" y1="417" x2="952" y2="417" stroke="var(--rule)" stroke-width="1" />
+  <text x="48" y="447" font-size="20" fill="var(--muted)" text-anchor="start">REST APIs / PostgreSQL / AI workflows / Model visualization</text>
+</svg>

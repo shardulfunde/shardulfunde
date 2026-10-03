@@ -1,0 +1,153 @@
+{
+  "name": "Shardul Funde",
+  "username": "shardulfunde",
+  "location": "Sangli, Maharashtra, India",
+  "headline": "AI & ML student / Backend developer",
+  "education": {
+    "college": "Walchand College of Engineering, Sangli",
+    "degree": "B.Tech in Artificial Intelligence and Machine Learning",
+    "years": "2024 - 2028",
+    "cgpa": "8.9 / 10"
+  },
+  "links": {
+    "email": "mailto:fundeshardul@gmail.com",
+    "linkedin": "https://linkedin.com/in/shardulfunde",
+    "github": "https://github.com/shardulfunde",
+    "leetcode": "https://leetcode.com/u/shardulfunde/",
+    "codechef": "https://www.codechef.com/users/shardul_funde"
+  },
+  "about": [
+    "Third-year AI & ML student at Walchand College of Engineering.",
+    "I build Python backends, AI-powered products, and learning tools.",
+    "My experience spans REST APIs, databases, deployment, and AI evaluation."
+  ],
+  "projects": [
+    {
+      "name": "StudyMate AI",
+      "category": "AI learning platform",
+      "url": "https://www.studymateai.tech",
+      "repository": "https://github.com/shardulfunde/StudyMate-backend",
+      "description": "An AI-powered learning platform for college students.",
+      "details": [
+        "Built FastAPI REST APIs for notes, resources, AI test generation, MCQ creation, content recommendations, and chat over uploaded study materials.",
+        "Designed PostgreSQL models with SQLAlchemy, implemented role-based access control, handled concurrent AI tasks, and deployed the backend on AWS.",
+        "Reached 1,200+ users in 10 days, with 8,000+ resource accesses and 750+ AI-generated tests.",
+        "Accepted into Microsoft for Startups with $100,000 in Azure credits."
+      ],
+      "visual_lines": [
+        "Notes, resources, AI tests, MCQs, and chat over study materials.",
+        "PostgreSQL models, role-based access, and concurrent AI tasks."
+      ],
+      "highlight": "1,200+ users in 10 days",
+      "stack": "FastAPI / PostgreSQL / SQLAlchemy / LangChain / AWS / Azure"
+    },
+    {
+      "name": "ManahArogya",
+      "category": "AI mental health application",
+      "url": "https://manahaarogya.vercel.app/",
+      "repository": "https://github.com/shardulfunde/ManahArogyaBackend",
+      "description": "An AI mental health application with a FastAPI backend.",
+      "details": [
+        "Built PostgreSQL schemas and REST APIs for user data and application workflows.",
+        "Owned the database and backend deployment on Render.",
+        "Won 2nd Runner-Up at the WCE ACM National Hackathon 2026 among 350+ teams."
+      ],
+      "visual_lines": [
+        "Built the backend, PostgreSQL schemas, and REST APIs.",
+        "Owned the database and deployment on Render."
+      ],
+      "highlight": "3rd among 350+ teams",
+      "stack": "FastAPI / PostgreSQL / Render"
+    },
+    {
+      "name": "CNN Visualization Tool",
+      "category": "Interactive digit classifier",
+      "url": "https://mnist-visualization.streamlit.app",
+      "repository": "https://github.com/shardulfunde/MNIST_With_canvas",
+      "description": "A real-time digit classifier for hand-drawn input.",
+      "details": [
+        "Visualizes CNN feature maps and convolutional layers for hand-drawn digits.",
+        "Built with Python, TensorFlow, NumPy, and Streamlit."
+      ],
+      "visual_lines": [
+        "Classifies hand-drawn digits in real time.",
+        "Visualizes CNN feature maps and convolutional layers."
+      ],
+      "highlight": "See what a CNN learns",
+      "stack": "Python / TensorFlow / NumPy / Streamlit"
+    }
+  ],
+  "experience": {
+    "company": "Turing",
+    "role": "Software Engineer (Python & Docker)",
+    "type": "Part-time",
+    "dates": "August 17 - September 30, 2026",
+    "details": [
+      "Hardened 5+ mined programming tasks used to evaluate AI coding agents, improving correctness, realism, and grading.",
+      "Calibrated task difficulty through repeated AI coding-model tests and strengthened the reasoning required.",
+      "Debugged task logic, expected solutions, grading, data, and environments to remove ambiguity and evaluation issues.",
+      "Analyzed failed attempts to distinguish model failures from task or evaluation issues, validated fixes through repeated runs, and documented the verification."
+    ]
+  },
+  "achievements": [
+    {
+      "name": "MIT AI Grand Challenge 2026",
+      "result": "Winner / 1st nationally",
+      "detail": "AI-based water optimization solution; INR 1 lakh prize."
+    },
+    {
+      "name": "RIT 2K26 Hackathon",
+      "result": "Winner / 1st among 450+ teams",
+      "detail": ""
+    },
+    {
+      "name": "WCE ACM National Hackathon 2026",
+      "result": "2nd Runner-Up / 3rd among 350+ teams",
+      "detail": "ManahArogya."
+    },
+    {
+      "name": "Lyzr Agentathon 2026",
+      "result": "National Finalist",
+      "detail": "Selected for Architect 101 Masterclass, Bengaluru."
+    },
+    {
+      "name": "TechSprint / Google Developers on Campus 2026",
+      "result": "Top 30 among 250+ teams",
+      "detail": ""
+    }
+  ],
+  "leadership": [
+    {
+      "role": "Young CXO Fellow",
+      "organization": "WCE - Hoopstr",
+      "dates": "2026 - 2027",
+      "detail": "Selected among the top 30 students at WCE for a 9-month program covering executive mentorship, product management, design thinking, and business presentations."
+    },
+    {
+      "role": "Technical Head",
+      "organization": "WCE ASTRA Club",
+      "dates": "2026 - 2027",
+      "detail": "Appointed for the 2026-27 academic year, contributing to planning and executing technical initiatives."
+    }
+  ],
+  "skills": {
+    "Languages": ["C++", "Python", "Java", "C"],
+    "Core CS": ["Data Structures & Algorithms", "OOP", "Operating Systems", "DBMS", "Debugging"],
+    "Backend": ["FastAPI", "REST APIs", "PostgreSQL", "SQL", "SQLAlchemy"],
+    "AI / ML": ["PyTorch", "Scikit-Learn", "NumPy", "Pandas", "LangChain", "LangGraph", "RAG"],
+    "Tools": ["Docker", "Git"],
+    "Deployment": ["AWS", "Azure", "Render"]
+  },
+  "certifications": [
+    {
+      "name": "PyTorch Fundamentals",
+      "issuer": "DeepLearning.AI",
+      "url": "https://coursera.org/share/51301546829c5ae3fc2a0e75d5670363"
+    },
+    {
+      "name": "Complete Data Science, ML, Deep Learning & NLP Bootcamp",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-68ee6ebf-0c96-44ff-95c9-b93057935cd2/"
+    }
+  ]
+}
